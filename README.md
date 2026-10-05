@@ -48,9 +48,9 @@ The following table summarizes enterprise SaaS and commercial UEM solutions, sor
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are top open-source device management platforms, remote control tools, and security frameworks sorted by **GitHub Star Count (Descending)**:
+Below are top open-source device management platforms, remote control tools, and security frameworks sorted by **GitHub Stars_Count (Descending)**:
 
-| Project | ⭐ Star Count Badge | 📜 License | 🎯 Description & Key Highlights |
+| Project | ⭐ Stars_Count Badge | 📜 License | 🎯 Description & Key Highlights |
 | :--- | :--- | :--- | :--- |
 | **[RustDesk](https://github.com/rustdesk/rustdesk)** | [![RustDesk Stars](https://img.shields.io/github/stars/rustdesk/rustdesk?style=social&color=white)](https://github.com/rustdesk/rustdesk/stargazers) | AGPL-3.0 | **Open-source remote desktop client & server alternative to TeamViewer**. Built in Rust with P2P encryption, self-hosted relay servers, and cross-platform remote control. |
 | **[NetBox](https://github.com/netbox-community/netbox)** | [![NetBox Stars](https://img.shields.io/github/stars/netbox-community/netbox?style=social&color=white)](https://github.com/netbox-community/netbox/stargazers) | Apache-2.0 | **Infrastructure resource modeling & IPAM/DCIM platform**. Serves as the single source of truth for network assets, IP addresses, hardware devices, and rack deployments. |
