@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255, 255, 255, 0.05)" stroke-width="1" />
+    </pattern>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 46px;
+      fill: #ffffff;
+    }
+    .subtitle {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 20px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #38bdf8;
+    }
+    .pulse-circle {
+      animation: pulse 3s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.08); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 0.4; }
+    }
+    .dash-line {
+      stroke-dasharray: 8 8;
+      animation: dash 20s linear infinite;
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -100; }
+    }
+  </style>
+
+  <!-- Base Layer: Background -->
+  <rect width="1200" height="320" fill="url(#bgGrad)" rx="16" />
+  <rect width="1200" height="320" fill="url(#grid)" rx="16" />
+
+  <!-- Background Dynamic Network Graphic (Kept in Background) -->
+  <g opacity="0.35">
+    <!-- Connecting Network Lines -->
+    <path d="M 150 250 L 350 220 L 550 260 L 750 210 L 950 240 L 1100 180" stroke="url(#accentGrad)" stroke-width="2" fill="none" class="dash-line" />
+    <path d="M 100 100 L 250 140 L 450 90 L 700 130 L 900 80 L 1050 120" stroke="#818cf8" stroke-width="1.5" stroke-dasharray="4 4" fill="none" />
+    
+    <!-- Background Animated Pulses -->
+    <circle cx="950" cy="240" r="40" fill="#818cf8" opacity="0.15" class="pulse-circle" />
+    <circle cx="250" cy="140" r="30" fill="#38bdf8" opacity="0.15" class="pulse-circle" />
+
+    <!-- Network Nodes -->
+    <circle cx="150" cy="250" r="5" fill="#38bdf8" />
+    <circle cx="350" cy="220" r="6" fill="#818cf8" />
+    <circle cx="550" cy="260" r="4" fill="#c084fc" />
+    <circle cx="750" cy="210" r="7" fill="#38bdf8" />
+    <circle cx="950" cy="240" r="5" fill="#818cf8" />
+    <circle cx="1100" cy="180" r="6" fill="#c084fc" />
+  </g>
+
+  <!-- Bottom Accent Line -->
+  <rect x="0" y="312" width="1200" height="8" fill="url(#accentGrad)" rx="4" />
+
+  <!-- Foreground Content: Header Tag, Title, Subtitle -->
+  <g transform="translate(60, 0)">
+    <!-- Top Pill / Tag -->
+    <g transform="translate(0, 50)">
+      <rect width="280" height="32" rx="16" fill="rgba(56, 189, 248, 0.1)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1" />
+      <circle cx="18" cy="16" r="5" fill="#38bdf8" filter="url(#glow)" />
+      <text x="32" y="21" class="badge-text">CURATED UEM &amp; MDM ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="145" class="title" filter="url(#glow)">Awesome Unified Endpoint Management</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="195" class="subtitle">Comprehensive Guide to Enterprise SaaS Platforms, Open-Source MDM &amp; IT Automation</text>
+
+    <!-- Tech Feature Pills -->
+    <g transform="translate(0, 230)">
+      <!-- Pill 1: macOS & Windows -->
+      <g transform="translate(0, 0)">
+        <rect width="160" height="32" rx="8" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+        <text x="16" y="21" font-family="sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">💻 Cross-Platform</text>
+      </g>
+      <!-- Pill 2: Open Source MDM -->
+      <g transform="translate(175, 0)">
+        <rect width="160" height="32" rx="8" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+        <text x="16" y="21" font-family="sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">⚡ Open-Source MDM</text>
+      </g>
+      <!-- Pill 3: Zero Trust & Compliance -->
+      <g transform="translate(350, 0)">
+        <rect width="180" height="32" rx="8" fill="rgba(255, 255, 255, 0.06)" stroke="rgba(255, 255, 255, 0.12)" stroke-width="1" />
+        <text x="16" y="21" font-family="sans-serif" font-size="13" font-weight="600" fill="#e2e8f0">🛡️ Security &amp; Compliance</text>
+      </g>
+    </g>
+  </g>
+</svg>
