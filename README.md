@@ -2,9 +2,7 @@
 
 ![Awesome Unified Endpoint Management Banner](./assets/banner.svg)
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+<a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a> [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com) <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 
 A curated list of top-tier **SaaS platforms**, enterprise **Mobile Device Management (MDM)**, and **open-source GitHub projects** for **Unified Endpoint Management (UEM)**, IT fleet automation, remote monitoring, and security compliance across Windows, macOS, Linux, iOS, and Android. 💻📱🖥️
 
@@ -17,6 +15,8 @@ A curated list of top-tier **SaaS platforms**, enterprise **Mobile Device Manage
 - [🏢 SaaS & Commercial UEM Platforms](#-saas--commercial-uem-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
 - [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
 - [⚠️ Disclaimer & Security Best Practices](#%EF%B8%8F-disclaimer--security-best-practices)
 
 ---
@@ -59,7 +59,7 @@ Below are top open-source device management platforms, remote control tools, and
 | **[Fleet](https://github.com/fleetdm/fleet)** | [![Fleet Stars](https://img.shields.io/github/stars/fleetdm/fleet?style=social&color=white)](https://github.com/fleetdm/fleet/stargazers) | MIT / Commercial | **The leading open-source UEM platform built on osquery**. Used by Stripe, Uber, and Netflix. Features GitOps-native YAML management, live device queries, vulnerability scanning, and multi-OS enrollment. |
 | **[Tactical RMM](https://github.com/amidaware/tacticalrmm)** | [![Tactical RMM Stars](https://img.shields.io/github/stars/amidaware/tacticalrmm?style=social&color=white)](https://github.com/amidaware/tacticalrmm/stargazers) | Custom / GPL | **Remote Monitoring & Management (RMM) tool built with Django, Vue, and Go**. Integrates MeshCentral for remote desktop access, script execution, automated patch management, and hardware checks. |
 | **[MicroMDM](https://github.com/micromdm/micromdm)** | [![MicroMDM Stars](https://img.shields.io/github/stars/micromdm/micromdm?style=social&color=white)](https://github.com/micromdm/micromdm/stargazers) | MIT | **Minimalist Apple MDM server framework** written in Go. Uses Apple's native Device Management API for enrollment and profile deployment on macOS and iOS. *(In maintenance mode)*. |
-| **[NanoMDM](https://github.com/micromdm/nanomdm)** | [![NanoMDM Stars](https://img.shields.io/github/stars/micromdm/nanomdm?style=social&color=white)](https://github.com/micromdm/nanomdm/stargazers) | MIT | **Active lightweight successor to MicroMDM**. Modular, high-performance Apple MDM protocol handler designed for high-scale enterprise deployments. |
+| **[NanoMDM](https://github.com/micromdm/nanomdm)** | [![NanoMDM Stars](https://img.shields.io/github/stars/micromdm/nanomdm?style=social&color=white)](https://github.com/nanomdm/nanomdm/stargazers) | MIT | **Active lightweight successor to MicroMDM**. Modular, high-performance Apple MDM protocol handler designed for high-scale enterprise deployments. |
 | **[Headwind MDM](https://github.com/h-mdm/hmdm-server)** | [![Headwind MDM Stars](https://img.shields.io/github/stars/h-mdm/hmdm-server?style=social&color=white)](https://github.com/h-mdm/hmdm-server/stargazers) | Apache-2.0 | **Open-source Android MDM platform**. Offers custom launcher, dedicated kiosk mode, APK distribution, location tracking, and deep support for enterprise Android devices and custom AOSP ROMs. |
 | **[OpenUEM](https://github.com/open-uem/openuem-console)** | [![OpenUEM Stars](https://img.shields.io/github/stars/open-uem/openuem-console?style=social&color=white)](https://github.com/open-uem/openuem-console/stargazers) | Apache-2.0 | **Modern Go-based open-source UEM solution**. Designed for lightweight installation with standalone console and agent architecture for Windows, Linux, and macOS. |
 | **[TheOpenEM](https://github.com/jdolny/Toems)** | [![TheOpenEM Stars](https://img.shields.io/github/stars/jdolny/Toems?style=social&color=white)](https://github.com/jdolny/Toems/stargazers) | GPL-3.0 | **Open Endpoint Manager (Toems)**. Specialized in open-source OS deployment, bare-metal disk imaging, software distribution, and remote administration. |
@@ -74,6 +74,23 @@ Contributions are warmly welcomed! Help us keep this directory accurate and comp
 2. 📝 **Add or update entries** in `README.md` following the tabular format.
 3. 📌 **Verify links and metrics**: Ensure factual descriptions, official documentation URLs, and valid GitHub repository paths.
 4. 🚀 **Submit a Pull Request** with a concise description of your additions.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for exploring and using this repository! If you find this resource helpful, please consider supporting the project:
+
+- ⭐ **Star** this repository on GitHub to show your appreciation!
+- 🍴 **Fork** and contribute to help keep the listings up to date.
+- 📢 **Share** this list with fellow IT administrators and security engineers.
+- ☕ **Buy me a coffee**: Support ongoing maintenance and open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Unified-Endpoint-Management-UEM&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Unified-Endpoint-Management-UEM&type=date&legend=top-left)
 
 ---
 
